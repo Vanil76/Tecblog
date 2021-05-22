@@ -71,6 +71,7 @@ nav a:hover {
 .container {
     width: 70%;
     margin: 0 auto;
+
 }
 
 .postagem {
@@ -157,4 +158,45 @@ footer span {
     font-weight: 600;
 }
 
+
+@media screen and (max-width: 856px) {
+
+    nav {
+        flex-wrap: wrap;
+        font-size: 1.2em;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .postagem {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .post {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    aside { 
+        width: 90%;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        margin-top: 20px;
+        box-shadow: 4px 4px 5px rgb(182, 182, 182);
+    }
+}
+
+
+
+@media screen and (max-width: 360px) {
+    nav a {
+        padding: 10px;
+    }
+}
 
